@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    color: maroon;
+}
+
+header {
+    padding: 1px 0;
+}
+
+div {
+    color: maroon;
+  }
+
+li {
+    color: seagreen;
+  }
+  
+footer {
+    position: relative;
+    padding: 1px;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
